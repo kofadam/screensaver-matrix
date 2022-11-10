@@ -13,7 +13,6 @@ else
 	echo "Its OK"
 fi
 
-: << 'COMMENT'
 XTR=$(pidof xtrlock)
 gnome-terminal --window --full-screen -e 2> /dev/null 'sh -c "cmatrix -C green -u 7 -B"'
 xtrlock
@@ -25,4 +24,4 @@ do
 
 done
 	killall cmatrix
-COMMENT
+
