@@ -22,7 +22,7 @@ do
 	echo $XTR
          XTR=$(pidof xtrlock)
 
-
+## avi
 done
 	killall cmatrix
 COMMENT
